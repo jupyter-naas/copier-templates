@@ -25,6 +25,7 @@ jobs:
             && cd .. \
             && ln -s .github/node_modules node_modules \
             && ln -s .github/package.json package.json \
+            && ln -s .github/package-lock.json package-lock.json \
             && ln -s .github/.releaserc .releaserc
       - name: Release
         env:
