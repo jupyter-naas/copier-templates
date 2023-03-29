@@ -1,1 +1,1 @@
-# cookiecutter-templates
+# copier-templates
