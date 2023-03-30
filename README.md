@@ -1,6 +1,6 @@
 # copier-templates
 
-This project is leveraging the project [Copier]() to allow us to not repeat ourselves and save time.
+This project is leveraging the project [Copier](https://copier.readthedocs.io/en/stable/) to allow us to not repeat ourselves and save time.
 
 
 ## How to use it
