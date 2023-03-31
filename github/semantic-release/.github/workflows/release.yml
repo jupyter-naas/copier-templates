@@ -23,6 +23,8 @@ jobs:
           cd .github \
             && npm ci \
             && cd .. \
+            && (rm package.json || true) \
+            && (rm package-lock.json || true) \
             && ln -s .github/node_modules node_modules \
             && ln -s .github/package.json package.json \
             && ln -s .github/package-lock.json package-lock.json \
